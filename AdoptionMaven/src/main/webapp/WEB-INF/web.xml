@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ServletCadastro</servlet-name>
+        <servlet-class>com.mycompany.adoptionmaven.servlet.ServletCadastro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginUsuario</servlet-name>
+        <servlet-class>com.mycompany.adoptionmaven.servlet.LoginUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>doar</servlet-name>
+        <servlet-class>com.mycompany.adoptionmaven.servlet.DoeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Trocardados</servlet-name>
+        <servlet-class>com.mycompany.adoptionmaven.servlet.Trocardados</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCadastro</servlet-name>
+        <url-pattern>/ServletCadastro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginUsuario</servlet-name>
+        <url-pattern>/LoginUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>doar</servlet-name>
+        <url-pattern>/doar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Trocardados</servlet-name>
+        <url-pattern>/Trocardados</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>Home.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

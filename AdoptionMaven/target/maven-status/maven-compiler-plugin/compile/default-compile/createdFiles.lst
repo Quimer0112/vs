@@ -1,0 +1,7 @@
+com/mycompany/adoptionmaven/servlet/ServletCadastro.class
+com/mycompany/adoptionmaven/doar.class
+com/mycompany/adoptionmaven/pessoa.class
+com/mycompany/adoptionmaven/servlet/util/SessaoHibernate.class
+com/mycompany/adoptionmaven/servlet/Trocardados.class
+com/mycompany/adoptionmaven/servlet/DoeServlet.class
+com/mycompany/adoptionmaven/servlet/LoginUsuario.class
